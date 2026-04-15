@@ -43,6 +43,7 @@ public class ATMManager{
     }else if(option == 3){
         am.checkBalance();
     }
+    sc.close();
   }
 
 }

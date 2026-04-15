@@ -46,5 +46,6 @@ public class SmartDeviceClass {
         for (SmartDevice device : sd) {
             device.checkEnvironment();
         }
+        sc.close();
     }
 }

@@ -48,6 +48,7 @@ public class SmartPhoneClass {
          screenSize= sc.nextInt();
     SmartPhone sp = new SmartPhone(screenSize,bn,os);
     sp.ShowDevicedetail();
+    sc.close();
     }
 }
 

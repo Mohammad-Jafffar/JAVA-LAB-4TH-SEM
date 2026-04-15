@@ -42,5 +42,6 @@ public class Multilevel {
     Scanner sc = new Scanner(System.in);
     Smartphone sp = new Smartphone(" OnePlus nord ce2", 6, "Oxygen");
     sp.showDeviceDetail();
+    sc.close();
     }
 }

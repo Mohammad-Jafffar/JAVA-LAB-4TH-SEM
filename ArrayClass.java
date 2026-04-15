@@ -13,6 +13,6 @@ public class ArrayClass{
             System.out.println("Enter value of"+ i + " is " + a[i]);
         }
 
-
+        sc.close();
     }
 }
